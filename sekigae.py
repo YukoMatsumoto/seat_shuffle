@@ -4,7 +4,6 @@
 
 import random
 
-
 def main():
     with open("member.tex", mode="r") as f:
         member = f.read()
@@ -17,7 +16,6 @@ def main():
         print(f"Table1:{table1}")
 
         #    print(f.read())
-
 
 # f.write("内田\n")
 # f.write("大江\n")
